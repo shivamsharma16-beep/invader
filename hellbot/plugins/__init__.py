@@ -11,10 +11,10 @@ from telethon import version
 HELL_USER = bot.me.first_name
 ForGo10God = bot.uid
 hell_mention = f"[{HELL_USER}](tg://user?id={ForGo10God})"
-hell_logo = "./hellbot/resources/pics/hellbot_logo.jpg"
-cjb = "./hellbot/resources/pics/cjb.jpg"
-restlo = "./hellbot/resources/pics/rest.jpeg"
-shuru = "./hellbot/resources/pics/shuru.jpg"
+hell_logo = "https://telegra.ph/file/d6e6b1fcf3252659923fd.jpg"
+cjb = "https://telegra.ph/file/d6e6b1fcf3252659923fd"
+restlo = "https://telegra.ph/file/d6e6b1fcf3252659923fd"
+shuru = "https://telegra.ph/file/d6e6b1fcf3252659923fd"
 hl = Config.HANDLER
 shl = Config.SUDO_HANDLER
 hell_ver = __hell__
@@ -41,17 +41,17 @@ else:
 
 START_TIME = datetime.datetime.now()
 uptime = f"{str(datetime.datetime.now() - START_TIME).split('.')[0]}"
-my_channel = Config.MY_CHANNEL or "Its_HellBot"
-my_group = Config.MY_GROUP or "HellBot_Chat"
+my_channel = Config.MY_CHANNEL or "missdeliriousupdates"
+my_group = Config.MY_GROUP or "missdelirioussupport"
 if "@" in my_channel:
     my_channel = my_channel.replace("@", "")
 if "@" in my_group:
     my_group = my_group.replace("@", "")
 
-chnl_link = "https://t.me/its_hellbot"
-hell_channel = f"[†hê Hêllẞø†]({chnl_link})"
-grp_link = "https://t.me/HellBot_Chat"
-hell_grp = f"[Hêllẞø† Group]({grp_link})"
+chnl_link = "https://t.me/missdelirious"
+hell_channel = f"[†hê ᎠᎬᏝᎨᏒᎨᎾᏬᏕ]({chnl_link})"
+grp_link = "https://t.me/missdelirioussupport"
+hell_grp = f"[ᎠᎬᏝᎨᏒᎨᎾᏬᏕ Group]({grp_link})"
 
 WELCOME_FORMAT = """**Use these fomats in your welcome note to make them attractive.**
   {mention} :  To mention the user
